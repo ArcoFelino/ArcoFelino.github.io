@@ -1,0 +1,41 @@
+
+body {
+    font-family: Arial;
+    padding-left: 90px;
+    padding-right: 80px;
+}
+h3 {
+    padding-left: 25px;
+    font-size: 22px;
+}
+p {
+    font-size: 18px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+a {
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+blockquote {
+    font-size: 18px;
+    padding-left: 50px;
+    padding-right: 30px
+    }
+h2 {
+    padding-left: 15px;
+    font-size: 26px;
+}
+h1 {
+    font-size: 36px;
+}
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
