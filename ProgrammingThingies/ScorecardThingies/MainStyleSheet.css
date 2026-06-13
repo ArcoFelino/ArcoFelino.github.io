@@ -1,0 +1,35 @@
+h3 {
+    font-size: 200%;
+}
+p {
+    font-size: 150%;
+}
+h2 {
+    font-size: 250%;
+}
+h1 {
+    font-size: 300%;
+}
+table {
+    border-collapse: collapse;
+    font-size: 150%;
+}
+table, tr, td, th {
+    border: 1px solid black;
+}
+tr {
+    text-align: center;
+}
+tr:nth-child(2n+1) {
+    background-color: #E7E7E7;
+}
+tr th:nth-child(1) {
+    background-color: #00A1FF;
+}
+.smol {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 0.6em;
+}
+.top {
+    background-color: #5381E6 !important;
+}
