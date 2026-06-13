@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial;
+}
+h3 {
+    padding-left: 25px;
+    font-size: 195%;
+}
+p {
+    font-size: 150%;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+a {
+    font-weight: bold;
+    font-size: 150%;
+    padding-left: 50px;
+    padding-right: 30px;
+}dding-right: 30px
+}
+h2 {
+    padding-left: 15px;
+    font-size: 240%;
+}
+h1 {
+    font-size: 330%;
+}
+img {
+    width: 250px;
+    height: 250px;
+}
+.PuzzleContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    height: 900px;
+}
+.PuzzleItem {
+    text-align: center;
+    background-color: #429cb5;
+    margin: 5px;
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+}
+.MainGrid {
+    display: grid;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    padding: 10px;
+    background-color: #daecf1;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.MainGridItems {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
