@@ -1,6 +1,6 @@
 
 body {
-    font-family: Arial;
+    font-family: "Arial", sans-serif;
     padding-left: 90px;
     padding-right: 80px;
 }
@@ -33,7 +33,51 @@ nav ul {
     padding-right: 0px;
 }
 img {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px
+    margin: 10px 10px;
+}
+.boxdiv {
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 10px;
+}
+#penguins {
+    filter: sepia(70%);
+    border-radius: 225px / 150px;
+    border: 1px solid;
+}
+#football {
+    border: 49px solid #000;
+    border-image: url(Images/Assigment/tic-tac-toe.png)49 round;
+    filter: grayscale(100%)
+}
+#dino {
+    filter: hue-rotate(90deg) drop-shadow(10px 1px 3px #000000);
+    width: 350px;
+    height: 300px;
+}
+#seagull {
+    background-image: linear-gradient(-225deg, #8888ff, #c3c3ff, white);
+    filter: drop-shadow(1px 15px 3px #A0A0A0);
+}
+#seagullbox {
+
+}
+#butterfly {
+    border-radius: 100px 0px;
+    filter: invert(100%) opacity(70%);
+}
+#presenting {
+    filter: blur(4px);
+    float: left;
+    z-index: 5;
+}
+#presentingtext {
+    color: white;
+    filter: drop-shadow(1px 5px 1px #000000);
+    font-size: 50px;
+    position: relative;
+    top: -200px;
+    left: 40px;
+    z-index: 10;
 }
