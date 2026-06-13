@@ -6,30 +6,30 @@ body {
 }
 h3 {
     padding-left: 25px;
-    font-size: 22px;
+    font-size: 195%;
 }
 p {
-    font-size: 18px;
+    font-size: 150%;
     padding-left: 50px;
     padding-right: 30px;
 }
 a {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 150%;
     padding-left: 50px;
     padding-right: 30px;
 }
 blockquote {
-    font-size: 18px;
+    font-size: 150%;
     padding-left: 50px;
     padding-right: 30px
     }
 h2 {
     padding-left: 15px;
-    font-size: 26px;
+    font-size: 240%;
 }
 h1 {
-    font-size: 36px;
+    font-size: 330%;
 }
 nav ul {
     display: flex;
@@ -38,4 +38,15 @@ nav ul {
     padding-left: 0px;
     padding-right: 0px;
 }
-
+img {
+    margin: 10px;
+}
+.floatL {
+    float: left;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.position {
+    position: relative;
+    top: 10px;
+}
