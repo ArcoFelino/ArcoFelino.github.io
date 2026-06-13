@@ -1,0 +1,23 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #202979;
+}
+p {
+    font-size: 150%;
+}
+h1 {
+    font-size: 300%;
+}
+h2 {
+    font-size: 250%;
+}
+h3 {
+    font-size: 200%
+}
+div {
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+}
