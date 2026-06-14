@@ -5,6 +5,9 @@ body {
     background-color: #150700;
     background-image: url();
     background-size: 100%;
+    animation-name: backgroundanim;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
 }
 main {
     border: 1px solid #8B6914;
@@ -78,4 +81,27 @@ textarea {
     visibility: hidden;
     height: 600px;
     width: 500px;
+}
+@keyframes backgroundanim {
+    0% {
+
+    }
+    27% {
+
+    }
+    33% {
+
+    }
+    60% {
+
+    }
+    66% {
+
+    }
+    93% {
+
+    }
+    100% {
+
+    }
 }
